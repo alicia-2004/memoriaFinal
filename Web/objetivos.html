@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetivos - Mi Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Mi Web</h2>
+            </div>
+        
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="nosotros.html" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="origen_Contex.html" class="nav-link">Origen y contextualización</a>
+                </li>
+                <li class="nav-item">
+                    <a href="objetivos.html" class="nav-link">Objetivos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Tareas y Cronograma</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Recursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Presupuesto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Seguimiento y Evaluación</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Objetivos</h1>
+                <p>Conoce nuestros objetivos generales y específicos que guían este proyecto</p>
+            </div>
+        </section>
+
+        <section class="objectives-section">
+            <div class="container">
+                <div class="objective-card general-objective">
+                    <div class="objective-icon">🎯</div>
+                    <h2>OBJETIVO GENERAL DEL PROYECTO</h2>
+                    <p class="objective-description">
+                        A la hora de trabajar con una tienda online de zapatillas y una cantidad amplia de productos y datos de clientes, 
+                        es de vital importancia una buena organización para evitar errores y confusiones. Por esa misma razón se plantea 
+                        una aplicación web para gestionar el trabajo y facilitar las tareas lo máximo posible.
+                    </p>
+                    <p class="objective-description">
+                        Por una parte tenemos la vista de las zapatillas, donde se mostrarán sus datos principales: nombre del modelo, 
+                        marca y precio. El administrador podrá gestionar las fotos del producto que se mostrarán en la página. También 
+                        aparecerá una descripción detallada que podrá añadir el administrador, como por ejemplo el material, 
+                        características especiales o algún dato de interés relevante. El administrador podrá modificar, añadir o 
+                        borrar cualquier característica de las zapatillas, con especial atención al control del stock disponible.
+                    </p>
+                    <p class="objective-description">
+                        Toda la gestión administrativa que lleva el proceso de compra y venta también estaría implementada en la aplicación. 
+                        Como por ejemplo, la gestión de pedidos, que es el proceso previo de confirmación y preparación del producto para su 
+                        envío rápido también estaría dentro.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="specific-objectives">
+            <div class="container">
+                <h2>OBJETIVOS ESPECÍFICOS</h2>
+                <p class="intro-text">
+                    Nuestro proyecto será una aplicación web la cual se guardará los datos en una base de datos relacional MySQL. 
+                    La aplicación tendrá un apartado gráfico muy intuitivo y fácil de usar para más comodidad del cliente.
+                </p>
+                <p class="intro-text">
+                    En nuestra aplicación web habrá dos niveles de usuario, es decir, cada usuario tiene su propio acceso a la aplicación, 
+                    pero todos tendrán el mismo nivel de usuario con las mismas funcionalidades excepto uno. Este usuario tendrá el usuario 
+                    administrador, con el que podrá administrar a los distintos usuarios de la plataforma.
+                </p>
+                
+                <div class="objectives-grid">
+                    <div class="objective-item">
+                        <div class="objective-number">1</div>
+                        <div class="objective-content">
+                            <h3>Vista de Administrador - Gestión de Stock</h3>
+                            <p>Si se inicia la sesión con el usuario de administrador, este podrá gestionar el stock de las zapatillas, 
+                            presentadas en una tabla con su nombre del modelo, marca y precio. Podrá modificar las cantidades disponibles, 
+                            añadir nuevos productos o eliminar los que ya no estén disponibles. También podrá gestionar los usuarios 
+                            registrados en la plataforma.</p>
+                        </div>
+                    </div>
+
+                    <div class="objective-item">
+                        <div class="objective-number">2</div>
+                        <div class="objective-content">
+                            <h3>Vista de Usuario - Catálogo y Compras</h3>
+                            <p>Los usuarios al entrar verán las zapatillas, y si hacen clic en ellas podrán seleccionar talla y más adelante 
+                            comprar una zapatilla. Podrán navegar por todo el catálogo de productos de forma intuitiva y atractiva.</p>
+                        </div>
+                    </div>
+
+                    <div class="objective-item">
+                        <div class="objective-number">3</div>
+                        <div class="objective-content">
+                            <h3>Gestión de Pedidos y Órdenes</h3>
+                            <p>Se guarda una orden por cada cliente que haya comprado una zapatilla. El sistema registrará todas las 
+                            transacciones y mantendrá un historial completo de las compras realizadas por cada usuario.</p>
+                        </div>
+                    </div>
+
+                    <div class="objective-item">
+                        <div class="objective-number">4</div>
+                        <div class="objective-content">
+                            <h3>Sistema de Pagos Seguro</h3>
+                            <p>Cada cliente tiene asociada una tarjeta de crédito la cual se valida para hacer la compra. Se implementará 
+                            un sistema de pago seguro que proteja los datos financieros de los usuarios durante las transacciones.</p>
+                        </div>
+                    </div>
+
+                    <div class="objective-item">
+                        <div class="objective-number">5</div>
+                        <div class="objective-content">
+                            <h3>Base de Datos MySQL Centralizada</h3>
+                            <p>Todo el sistema estará respaldado por una base de datos MySQL que almacenará información de usuarios, 
+                            productos, pedidos y datos de pago, garantizando la integridad y consistencia de los datos.</p>
+                        </div>
+                    </div>
+
+                    <div class="objective-item">
+                        <div class="objective-number">6</div>
+                        <div class="objective-content">
+                            <h3>Consultas y Filtros Avanzados</h3>
+                            <p>Los filtros y/o consultas se realizan mediante queries para obtener un listado óptimo y fácil de leer que 
+                            pueda consultar el cliente, permitiendo búsquedas eficientes de productos por marca, talla, precio, etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits-section">
+            <div class="container">
+                <h2>Beneficios Esperados</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🛍️</div>
+                        <h3>Experiencia de Compra Superior</h3>
+                        <p>Los usuarios disfrutarán de una plataforma intuitiva y rápida para comprar sus zapatillas favoritas.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🔒</div>
+                        <h3>Seguridad Garantizada</h3>
+                        <p>Transacciones seguras y protección de datos personales para todos los usuarios de la plataforma.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚙️</div>
+                        <h3>Gestión Eficiente</h3>
+                        <p>Herramientas administrativas potentes para mantener el catálogo actualizado y gestionar pedidos fácilmente.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📱</div>
+                        <h3>Acceso Multiplataforma</h3>
+                        <p>Disponibilidad en todos los dispositivos, permitiendo comprar desde cualquier lugar en cualquier momento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mi Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
